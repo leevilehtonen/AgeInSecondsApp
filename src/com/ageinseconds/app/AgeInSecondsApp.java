@@ -202,7 +202,8 @@ public class AgeInSecondsApp implements Runnable {
 		
 		if (inputInYears) {
 			
-			secondsValue.setText("" + years * 365 * 24 * 60 * 60);
+            double secondVal = years * 365 * 24 * 60 * 60;
+			secondsValue.setText("" + secondVal);
 			
 		} else {
 			
